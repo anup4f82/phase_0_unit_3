@@ -6,7 +6,7 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
-![student_2](../images_anup?raw=true)
+![alt text](../images_anup/student_2.jpg?raw=true)
 
 ## Release 1: One to Many Schema
 <!-- display your image inline here -->
