@@ -6,7 +6,7 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
-![student_2](../phase_0_unit_3/week_7/images_anup)
+![student_2](../phase_0_unit_3/week_7/images_anup?raw=true)
 
 ## Release 1: One to Many Schema
 <!-- display your image inline here -->
