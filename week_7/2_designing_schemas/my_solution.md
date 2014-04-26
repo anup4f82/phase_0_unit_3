@@ -41,10 +41,6 @@ Description of what you're modeling:
 
 ## Release 5: Reflection
 
-<pre> I am pretty confident in writing SQL queries and syntax. Building a Database model is something I havent done before. Although I am comfortable
-	writing SQL queries, if someone had asked me before on concepts like foreign key, many-to-many relationships etc, I would have struggled to answer them.
-	I do feel a bit more confident now after having done this exercise, though I admit I still need to read up a lot more to fully grasp the concepts.
-	Between writing queries and databse modelling I am definitely more comfortable with the former.
-
-
+<pre>I am pretty confident in writing SQL queries and syntax. Building a Database model is something I havent done before. Although I am comfortable writing SQL queries, if someone had asked me before on concepts like foreign key, many-to-many relationships etc, I would have struggled to answer them.I do feel a bit more confident now after having done this exercise, though I admit I still need to read up a lot more to fully grasp the concepts.
+Between writing queries and databse modelling I am definitely more comfortable with the former.
 </pre>
