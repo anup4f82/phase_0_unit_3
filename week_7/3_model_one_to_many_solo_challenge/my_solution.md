@@ -29,6 +29,7 @@ Its a One to Many relationship. One User can have multiple tweets.
 ## Release 3: Schema Design
 <!-- Include your image (inline) of your schema -->
 
+![Twitter](https://github.com/anup4f82/phase_0_unit_3/blob/master/week_7/images_anup/twitter.JPG?raw=true)
 ## Release 4: SQL Statements
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
 <pre>
@@ -62,3 +63,5 @@ where b.id = '100'
 </pre>
 ## Release 5: Reflection
 <!-- Be sure to add your reflection here!!! -->
+
+<pre>Though I have a Twitter account, I have never used twitter before. On seeing the tweet form I like how simple it is with minimal fields.I wasn't sure if I need to add the 'reply' ,'photo' etc as fields. I believe I dont need to. For the profile page it was easy to determing which fields will go in the users table. Overall it was a good learning experience to play around with 'tweets'. Writing SQL queries again was straightforward for this challenge.</pre>
