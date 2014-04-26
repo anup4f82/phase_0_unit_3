@@ -1,5 +1,7 @@
 -- U3.W7: Intro to SQLite
 
+--  I worked on this challenge with Devin Johnson
+
 -- Release 0: Create a dummy database
 --Output
 
@@ -112,3 +114,7 @@ sqlite> Select * from users where ID = 1;
 </pre>
 ## Release 5: Reflect
 <!-- Add your reflection here -->
+<pre> For this challenge I worked with Devin. Since I have SQL knowledge and my pair had already completed this challenge we wrapped up the challenge
+  pretty quickly. We did get an error for the 'Alter table' part, but then we did a workaround to fix it. Overall it was a good learning experience
+  especially with using SQLLite and practising simple SQL statements again. I liked working on this challenge and also learnt couple of new things 
+  during the challenge.</pre>
