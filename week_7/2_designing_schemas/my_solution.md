@@ -32,7 +32,7 @@ Description of what you're modeling:
 	Customers Mobile Nos and  handsetIDs. I have a foreign key 'customerid' in this table that points to the Primary key in the customers table
 	And lastly I have a handsets table that stores all the handsets and their type,description etc. The HandsetID in the Phones table is the foreign key to
 	the id column in the handset table
-
+</pre>
 <!-- display your one-to-one image inline here -->
 ![Anup_one_to_One](https://github.com/anup4f82/phase_0_unit_3/blob/master/week_7/images_anup/Anup_one_to_One.JPG?raw=true)
 <!-- display your many-to-many image inline here -->
