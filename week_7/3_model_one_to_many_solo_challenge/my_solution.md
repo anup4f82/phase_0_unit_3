@@ -64,4 +64,7 @@ where b.id = '100'
 ## Release 5: Reflection
 <!-- Be sure to add your reflection here!!! -->
 
-<pre>Though I have a Twitter account, I have never used twitter before. On seeing the tweet form I like how simple it is with minimal fields.I wasn't sure if I need to add the 'reply' ,'photo' etc as fields. I believe I dont need to. For the profile page it was easy to determing which fields will go in the users table. Overall it was a good learning experience to play around with 'tweets'. Writing SQL queries again was straightforward for this challenge.</pre>
+<pre>Though I have a Twitter account, I have never used twitter before. On seeing the tweet form I like how simple it is with minimal fields.
+I wasn't sure if I need to add the 'reply' ,'photo' etc as fields. I believe I dont need to. For the profile page it was easy to determing which 
+fields will go in the users table. Overall it was a good learning experience to play around with 'tweets'. Writing SQL queries again was 
+straightforward for this challenge.</pre>
