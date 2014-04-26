@@ -6,7 +6,7 @@
 
 ## Release 0: Student Roster Schema
 <!-- display your image inline here -->
-![Student](https://github.com/anup4f82/phase_0_unit_3/blob/master/week_7/images_anup/student_2.JPG)
+![Student](https://github.com/anup4f82/phase_0_unit_3/blob/master/week_7/images_anup/student_2.JPG?raw=true)
 
 ## Release 1: One to Many Schema
 <!-- display your image inline here -->
