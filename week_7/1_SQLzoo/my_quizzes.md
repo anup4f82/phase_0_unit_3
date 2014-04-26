@@ -7,10 +7,10 @@
 ### My Quiz Results:
 <!-- Include the link to your image (saved in the imgs folder) to display it inline. -->
 
-<pre>
+
 ![Quiz](https://github.com/anup4f82/phase_0_unit_3/blob/master/week_7/images_anup/sqlzoo_quiz.JPG?raw=true)
 
-</pre>
+
 
 
 
