@@ -89,3 +89,19 @@ ham = Item.new("Ham",10, 1)
  list.display
  list.delete(egg)
  list.display
+ ham.price = 15
+ list.display
+
+
+
+ #Reflection
+
+ # For the initial part of the challenge we were able to come up with the solution pretty quickly. I am comfortable with classes, instance variables and defining
+ # methods. Our instructor then asked us to add another variable quantity to our code. Our initial thought was creating a Hash. The code worked fine, but looking back
+ # I felt creating a new class would have been a better approach. And finally the instructor asked us if we need more attributes like quantity,price etc and then it 
+ # struck us that we need to use another class. I initially wasnt sure on how we would code it, but then both my pair and instructor walked me through it 
+ # and I understood the code. I felt if I had done this independently I would have thought of the solution much faster. But this is something I need to work on to 
+ # collaborate with others and come up with solutions together. Overall I feel pretty confident with creating differnt classes and using objects from one class
+ # in another class.
+
+ 
