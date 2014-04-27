@@ -57,7 +57,10 @@ Just had to research a bit on Database relationship models.
 What concepts are you having trouble with, or did you just figure something out? If so, what?
 
 None.
+
 Did you learn any new skills or tricks?
+
+Creating Database Relationships
 
 How confident are you with each of the Learning Competencies?
 

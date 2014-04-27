@@ -67,4 +67,33 @@ where b.id = '100'
 <pre>Though I have a Twitter account, I have never used twitter before. On seeing the tweet form I like how simple it is with minimal fields.
 I wasn't sure if I need to add the 'reply' ,'photo' etc as fields. I believe I dont need to. For the profile page it was easy to determing which 
 fields will go in the users table. Overall it was a good learning experience to play around with 'tweets'. Writing SQL queries again was 
-straightforward for this challenge.</pre>
+straightforward for this challenge.
+
+What parts of your strategy worked? What problems did you face?
+
+Trying to figure out the fields used when you create a tweet took some thinking.
+
+What questions did you have while coding? What resources did you find to help you answer them?
+
+Just had to think about what possible fields I should add to the tweets table
+
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+None.
+
+Did you learn any new skills or tricks?
+
+Creating Database relationships
+
+How confident are you with each of the Learning Competencies?
+
+Fairly confident 
+
+Which parts of the challenge did you enjoy?
+
+Creating 
+
+Which parts of the challenge did you find tedious?
+
+None
+</pre>
