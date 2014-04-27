@@ -1,6 +1,6 @@
 # U3.W7: BONUS Using the SQLite Gem
 
-# I worked on this challenge by myself
+# I worked on this challenge [by myself, with:]
 
 require 'sqlite3'
 
@@ -90,20 +90,10 @@ print_state_rep("NJ","NY","ME","FL","AK")
 
 
 # REFLECTION- Include your reflection as a comment below.
-
 # How does the sqlite3 gem work?  What is the variable `$db` holding?  
-
-# $db holds the Database congress_poll_results. 
-
 # Try to use your knowledge of ruby and OO to decipher this as well as h
 # ow the `#execute` method works.  Take a stab at explaining the line 
 # `$db.execute("SELECT name FROM congress_members WHERE years_in_congress 
 #   > #{minimum_years}")`.  Try to explain this as clearly as possible for 
 # your fellow students.  
-
-
-# the $db.execute statement, will execute the SQL statement that we pass in the () and stores the result in an array. 
-
-
-
 # If you're having trouble, find someone to pair on this explanation with you.
