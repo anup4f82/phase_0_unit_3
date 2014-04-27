@@ -18,7 +18,7 @@ def print_longest_serving_reps(minimum_years)  #sorry guys, oracle needs me, i d
   puts "LONGEST SERVING REPRESENTATIVES"
   long_reps =  $db.execute("SELECT name FROM congress_members WHERE years_in_congress > #{minimum_years}")
  
-  puts "#{long_reps}"
+
   long_reps.each do |rep|
 
      year = $db.execute("SELECT years_in_congress FROM congress_members WHERE name = '#{rep[0]}'")
@@ -102,8 +102,39 @@ print_state_rep("NJ","NY","ME","FL","AK")
 # your fellow students.  
 
 
-# the $db.execute statement, will execute the SQL statement that we pass in the () and stores the result in an array. 
+# the $db.execute statement, will execute the SQL statement that we pass in the parantheses () and stores the result in an array. 
 
 
 
 # If you're having trouble, find someone to pair on this explanation with you.
+
+# What parts of your strategy worked? What problems did you face?
+
+# Initially I had some trouble when I ran the command sqlite3 congress_poll_results.db, but then figured out what I was doing wrong.
+# Also when I was debugging the code I had to run it multiple times before I got it right. I realized when you store the result of the 'db.execute'
+# in a variable its a nested array.
+
+# What questions did you have while coding? What resources did you find to help you answer them?
+
+# Just had to execute the code multiple times before I understood how to fix it.
+
+# What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+# Since this was the first time I was running code with db.execute statements it took some time. I had fun though with knowing how the Ruby code
+#interacts with Database
+
+# Did you learn any new skills or tricks?
+
+# How to use Ruby code to interact with Database
+
+# How confident are you with each of the Learning Competencies?
+
+# Very confident 
+
+# Which parts of the challenge did you enjoy?
+
+# Coding and writing sql queries is always fun
+
+# Which parts of the challenge did you find tedious?
+
+# None
