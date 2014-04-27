@@ -41,6 +41,33 @@ Description of what you're modeling:
 
 ## Release 5: Reflection
 
-<pre>I am pretty confident in writing SQL queries and syntax. Building a Database model is something I havent done before. Although I am comfortable writing SQL queries, if someone had asked me before on concepts like foreign key, many-to-many relationships etc, I would have struggled to answer them.I do feel a bit more confident now after having done this exercise, though I admit I still need to read up a lot more to fully grasp the concepts.
+<pre>I am pretty confident in writing SQL queries and syntax. Building a Database model is something I havent done before. Although I am comfortable 
+writing SQL queries, if someone had asked me before on concepts like foreign key, many-to-many relationships etc, I would have struggled to answer 
+them.I do feel a bit more confident now after having done this exercise, though I admit I still need to read up a lot more to fully grasp the concepts.
 Between writing queries and databse modelling I am definitely more comfortable with the former.
+
+What parts of your strategy worked? What problems did you face?
+
+I had to read up a bit on the different Database relationship models before I could solve the assignment. I didnt face any problems as such.
+
+What questions did you have while coding? What resources did you find to help you answer them?
+
+Just had to research a bit on Database relationship models.
+
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+None.
+Did you learn any new skills or tricks?
+
+How confident are you with each of the Learning Competencies?
+
+Fairly confident 
+
+Which parts of the challenge did you enjoy?
+
+To be honest, I don't like Database modelling as much as I like writing SQL queries.
+
+Which parts of the challenge did you find tedious?
+
+None
 </pre>
