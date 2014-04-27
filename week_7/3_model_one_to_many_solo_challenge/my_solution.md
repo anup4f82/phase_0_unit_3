@@ -91,7 +91,7 @@ Fairly confident
 
 Which parts of the challenge did you enjoy?
 
-Creating 
+Just looking at the twitter website (for the first time :) ).
 
 Which parts of the challenge did you find tedious?
 

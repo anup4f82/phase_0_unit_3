@@ -117,4 +117,32 @@ sqlite> Select * from users where ID = 1;
 <pre> For this challenge I worked with Devin. Since I have SQL knowledge and my pair had already completed this challenge we wrapped up the challenge
   pretty quickly. We did get an error for the 'Alter table' part, but then we did a workaround to fix it. Overall it was a good learning experience
   especially with using SQLLite and practising simple SQL statements again. I liked working on this challenge and also learnt couple of new things 
-  during the challenge.</pre>
+  during the challenge.
+
+What parts of your strategy worked? What problems did you face?
+
+Since I have good SQL experience and my pair had completed the challenge we were able to complete the assignment failry quickly.
+
+What questions did you have while coding? What resources did you find to help you answer them?
+
+None for this challenge.
+
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+None.
+
+Did you learn any new skills or tricks?
+
+How to use SQLITE3
+
+How confident are you with each of the Learning Competencies?
+
+Very confident 
+
+Which parts of the challenge did you enjoy?
+
+Writing SQL queries is always fun.
+
+Which parts of the challenge did you find tedious?
+
+None</pre>
