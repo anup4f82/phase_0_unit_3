@@ -9,10 +9,26 @@
 
 # 3. Initial Solution
 
-def super_fizzbuzz(array)
+ def super_fizzbuzz(array)
 
-
+result= []
+array.each do |x|
+    
+    if x % 15 == 0
+        result << "FizzBuzz"
+        elsif x % 5 == 0
+        result << "Buzz"
+        elsif x % 3== 0
+        result << "Fizz"
+    else
+        result << x
+    end
+    
 end
+return result
+end
+
+
 
 
 
