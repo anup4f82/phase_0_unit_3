@@ -8,6 +8,20 @@
 
 
 # 3. Initial Solution
+def reverse_words(word)
+    
+    
+    
+   word =  word.split(" ")
+    b = []
+    word.each do |x|
+        y = x.reverse
+        b << y
+    end
+ b.join(' ') 
+
+end
+
 
 
 
