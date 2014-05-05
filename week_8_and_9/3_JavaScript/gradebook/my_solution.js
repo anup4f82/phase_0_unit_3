@@ -7,9 +7,101 @@ variables match (i.e., 'Joseph' is the first element in students; his scores are
 
 Do not alter the students and scores code.
 
-I worked on this challenge [by myself, with:]
+I worked on this challenge by myself.
 
 */
+
+
+
+
+
+// __________________________________________
+// Write your code below.
+
+// var students = ["Joseph", "Susan", "William", "Elizabeth"]
+
+// var scores = [ [80, 70, 70, 100],
+//                [85, 80, 90, 90],
+//                [75, 70, 80, 75],
+//                [100, 90, 95, 85] ]
+
+
+
+
+
+
+// // __________________________________________
+// // Write your code below.
+
+// var average = function(array){
+    
+//    var  sum = 0
+//     for (i=0;i<array.length;i++)
+//     {
+        
+//         sum += array[i]
+        
+//     }
+    
+//     avg = sum/array.length
+//     return avg
+// }
+
+// var gradebook = {}
+// gradebook.Joseph = {}
+// gradebook.Susan = {}
+// gradebook.Susan.name = "Susan"
+// gradebook.William = {}
+// gradebook.Elizabeth = {}
+// gradebook.William.testScores = scores[2]
+// gradebook.Joseph.testScores = scores[0]
+// gradebook.Susan.testScores = scores[1]
+// gradebook.Elizabeth.testScores = scores[3]
+// gradebook.addScore = function(name,score)
+// {
+ 
+ 
+// for(i=0;i<students.length;i++)
+// {
+//     if (name===students[i])
+//     {
+        
+//     scores[i].push(score)
+//     }
+    
+    
+// }
+
+    
+// }
+
+// gradebook.getAverage = function(name)
+// {
+//  //a = Object.getOwnPropertyNames(gradebook)
+ 
+// for(i=0;i<students.length;i++)
+// {
+//     if (name===students[i])
+//     {
+        
+//     return average(scores[i])
+//     }
+    
+    
+// }
+
+    
+// }
+
+
+
+
+
+
+// __________________________________________
+// Refactored Solution
+
+// Couldnt really think of anyway to refactor this code.
 
 var students = ["Joseph", "Susan", "William", "Elizabeth"]
 
@@ -26,29 +118,65 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+var average = function(array){
+    
+   var  sum = 0
+    for (i=0;i<array.length;i++)
+    {
+        
+        sum += array[i]
+        
+    }
+    
+    avg = sum/array.length
+    return avg
+}
 
+var gradebook = {}
+gradebook.Joseph = {}
+gradebook.Susan = {}
+gradebook.Susan.name = "Susan"
+gradebook.William = {}
+gradebook.Elizabeth = {}
+gradebook.William.testScores = scores[2]
+gradebook.Joseph.testScores = scores[0]
+gradebook.Susan.testScores = scores[1]
+gradebook.Elizabeth.testScores = scores[3]
+gradebook.addScore = function(name,score)
+{
+ 
+ 
+for(i=0;i<students.length;i++)
+{
+    if (name===students[i])
+    {
+        
+    scores[i].push(score)
+    }
+    
+    
+}
 
+    
+}
 
+gradebook.getAverage = function(name)
+{
+ 
+ 
+for(i=0;i<students.length;i++)
+{
+    if (name===students[i])
+    {
+        
+    return average(scores[i])
+    }
+    
+    
+}
 
-
-// __________________________________________
-// Refactored Solution
-
-
-
-
-
-
-
-
-// __________________________________________
-// Reflect
-
-
-
-
-
-
+    
+}
 
 
 
@@ -121,3 +249,34 @@ assert(
   "gradebook's getAverage should return 80 if passed 'Jospeh'.",
   "9. "
 )
+
+
+//Reflections
+
+// What parts of your strategy worked? What problems did you face?
+
+// I was out of touch with javascript and had to read up old assignments to get myself familiar with the syntax ,creating objects etc.
+
+// What questions did you have while coding? What resources did you find to help you answer them?
+
+// Yes I hadnt done any javascript coding for a while so had to read up before I could start the assignment.
+
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+// None
+
+// Did you learn any new skills or tricks?
+
+// No
+
+// How confident are you with each of the Learning Competencies?
+
+// I need some more javascript practise.
+
+// Which parts of the challenge did you enjoy?
+
+// Getting the driver code to work is always enjoyable
+
+// Which parts of the challenge did you find tedious?
+
+// None.
