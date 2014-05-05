@@ -1,6 +1,6 @@
 // U3.W8-9: Gradebook from Names and Scores
 
-// I worked on this challenge [by myself, with:]
+// I worked on this challenge by myself
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -65,72 +65,136 @@ var officers = {
 
 // Pseudocode
 
+// Loop through all the elements of the votes object
+// for var names in votes
+// assign var votes to value of name property
+//  Loop through votes 
+// Calculate the number of votes for each person for respective positions
+
+
+    // Loop through the elements of the voteCount object
+    // assign variable num to the values of voteCount property
+    //Loop through num and set officers[office] to person with most counts
+      {
+          num = voteCount[officer];
+          var max = 1;
+          for(var a in num)
+          {
+             if (num[a] >=max)
+             {
+                 max = num[a];
+                 
+                 officers[officer] = a;
+             }
+            
+    
+          }
+      }
 
 // __________________________________________
 // Initial Solution
 
-for (var names in votes){
-          var vote = votes[names];
-          for (var tally in vote){
+// for (var names in votes){
+//           var vote = votes[names];
+//           for (var tally in vote){
      
-      if (tally === "president"){
-      president = vote[tally];
+//       if (tally === "president"){
+//       president = vote[tally];
       
-      if(voteCount.president[president] > 0)
-      {
-         voteCount.president[president] +=1;
-      }
-      else{
-      voteCount.president[president] =1;
-}
-      }
-          else if(tally === "vicePresident"){
-      vicepresident = vote[tally];
-      if( voteCount.vicePresident[vicepresident] > 0)
-      {
-         voteCount.vicePresident[vicepresident] += 1; 
-      }
-      else{
-      voteCount.vicePresident[vicepresident] = 1;
-}
-      }
-       else if(tally === "secretary"){
-      secretary = vote[tally];
-      if(voteCount.secretary[secretary] > 0){
-        voteCount.secretary[secretary] += 1;  
-      }
-      else{
-      voteCount.secretary[secretary] = 1;
-}
-      }
-          else if(tally === "treasurer"){
-      treasurer = vote[tally];
-      if(voteCount.treasurer[treasurer] > 0){
-             voteCount.treasurer[treasurer] += 1;
+//       if(voteCount.president[president] > 0)
+//       {
+//          voteCount.president[president] +=1;
+//       }
+//       else{
+//       voteCount.president[president] =1;
+// }
+//       }
+//           else if(tally === "vicePresident"){
+//       vicepresident = vote[tally];
+//       if( voteCount.vicePresident[vicepresident] > 0)
+//       {
+//          voteCount.vicePresident[vicepresident] += 1; 
+//       }
+//       else{
+//       voteCount.vicePresident[vicepresident] = 1;
+// }
+//       }
+//        else if(tally === "secretary"){
+//       secretary = vote[tally];
+//       if(voteCount.secretary[secretary] > 0){
+//         voteCount.secretary[secretary] += 1;  
+//       }
+//       else{
+//       voteCount.secretary[secretary] = 1;
+// }
+//       }
+//           else if(tally === "treasurer"){
+//       treasurer = vote[tally];
+//       if(voteCount.treasurer[treasurer] > 0){
+//              voteCount.treasurer[treasurer] += 1;
 
-      }
-      else{
-      voteCount.treasurer[treasurer] = 1;
+//       }
+//       else{
+//       voteCount.treasurer[treasurer] = 1;
 
-      }
-          }    
+//       }
+//           }    
           
-      }
+//       }
  
          
   
-      }
+//       }
       
-var officers = {
-  president: undefined,
-  vicePresident: undefined,
-  secretary: undefined,
-  treasurer: undefined
+
+
+
+      
+//       for (var officer in voteCount)
+//       {
+//           num = voteCount[officer];
+//           var max = 1;
+//           for(var a in num)
+//           {
+//              if (num[a] >=max)
+//              {
+//                  max = num[a];
+                 
+//                  officers[officer] = a;
+//              }
+            
+    
+//           }
+//       }
+      
+      
+
+
+
+
+
+
+
+// __________________________________________
+// Refactored Solution
+
+for (var names in votes){
+  var vote = votes[names];
+    for (var tally in vote){
+      if(voteCount[tally][vote[tally]] > 0)
+        {
+           voteCount[tally][vote[tally]] +=1;
+        }
+      else{
+           voteCount[tally][vote[tally]] = 1;
+          }
+          
+    
+    }
+          
 }
 
-
-      
-      for (var officer in voteCount)
+for (var officer in voteCount)
       {
           num = voteCount[officer];
           var max = 1;
@@ -147,24 +211,8 @@ var officers = {
           }
       }
       
-      
 
 
-
-
-
-
-
-// __________________________________________
-// Refactored Solution
-
-
-
-
-
-
-// __________________________________________
-// Reflection
 
 
 
@@ -231,3 +279,37 @@ assert(
   "Ivy should be elected Treasurer.",
   "8. "
 )
+
+
+// __________________________________________
+// Reflection
+
+//What parts of your strategy worked? What problems did you face?
+
+// Since I havent done similar exerices before it took me sometime to get it right. I had to try few different things before I could get it right.
+//I used repl.it to test my code
+
+// What questions did you have while coding? What resources did you find to help you answer them?
+
+// I had to research on how to iterate over an objects property. I used the resources mentioned in the readme file
+
+
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
+
+// Looping over objects property. Although I was able to figure it out, it seems a little more complicated than looping over arrays or hashes
+
+// Did you learn any new skills or tricks?
+
+// How to loop over javascript object property and accessing nested properties
+
+// How confident are you with each of the Learning Competencies?
+
+// Pretty confident. Though I need lot more practice
+
+// Which parts of the challenge did you enjoy?
+
+// Initially I was totally lost on this , but when I figured it out it was amazing.
+
+// Which parts of the challenge did you find tedious?
+
+// None.
