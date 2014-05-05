@@ -69,6 +69,86 @@ var officers = {
 // __________________________________________
 // Initial Solution
 
+for (var names in votes){
+          var vote = votes[names];
+          for (var tally in vote){
+     
+      if (tally === "president"){
+      president = vote[tally];
+      
+      if(voteCount.president[president] > 0)
+      {
+         voteCount.president[president] +=1;
+      }
+      else{
+      voteCount.president[president] =1;
+}
+      }
+          else if(tally === "vicePresident"){
+      vicepresident = vote[tally];
+      if( voteCount.vicePresident[vicepresident] > 0)
+      {
+         voteCount.vicePresident[vicepresident] += 1; 
+      }
+      else{
+      voteCount.vicePresident[vicepresident] = 1;
+}
+      }
+       else if(tally === "secretary"){
+      secretary = vote[tally];
+      if(voteCount.secretary[secretary] > 0){
+        voteCount.secretary[secretary] += 1;  
+      }
+      else{
+      voteCount.secretary[secretary] = 1;
+}
+      }
+          else if(tally === "treasurer"){
+      treasurer = vote[tally];
+      if(voteCount.treasurer[treasurer] > 0){
+             voteCount.treasurer[treasurer] += 1;
+
+      }
+      else{
+      voteCount.treasurer[treasurer] = 1;
+
+      }
+          }    
+          
+      }
+ 
+         
+  
+      }
+      
+var officers = {
+  president: undefined,
+  vicePresident: undefined,
+  secretary: undefined,
+  treasurer: undefined
+}
+
+
+      
+      for (var officer in voteCount)
+      {
+          num = voteCount[officer];
+          var max = 1;
+          for(var a in num)
+          {
+             if (num[a] >=max)
+             {
+                 max = num[a];
+                 
+                 officers[officer] = a;
+             }
+            
+    
+          }
+      }
+      
+      
+
 
 
 
