@@ -15,13 +15,10 @@ $('body').css({'background-color': 'pink'})
 
 
   
-
-
- 
 //RELEASE 2: 
   // Add code here to modify the css and html of DOM elements
  
-   $( ":header" ).css({ background: "#ccc", color: "black" });
+   $( ":header" ).css({ background: "grey", color: "black",border: "3px solid black",visibility:"visible" });
 
      $("div :first-child").html("Fence Lizards")
 
