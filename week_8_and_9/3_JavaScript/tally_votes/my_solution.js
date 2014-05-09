@@ -75,21 +75,7 @@ var officers = {
     // Loop through the elements of the voteCount object
     // assign variable num to the values of voteCount property
     //Loop through num and set officers[office] to person with most counts
-      {
-          num = voteCount[officer];
-          var max = 1;
-          for(var a in num)
-          {
-             if (num[a] >=max)
-             {
-                 max = num[a];
-                 
-                 officers[officer] = a;
-             }
-            
-    
-          }
-      }
+   
 
 // __________________________________________
 // Initial Solution
